@@ -1,0 +1,3 @@
+phonegap build --release android
+C:\Users\OC-2016\Documents\GitHub\Demo\platforms\android\build\outputs\apk>jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore clubedeofertas.keystore android-release-unsigned.apk clube ------- senha:clubedeofertas
+C:\Users\OC-2016\AppData\Local\Android\sdk\build-tools\24.0.1\zipalign -v 4 android-release-unsigned.apk CDORelease01.apk

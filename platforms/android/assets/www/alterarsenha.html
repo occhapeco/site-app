@@ -1,0 +1,63 @@
+<div class="navbar">
+    <div class="navbar-inner">
+      <div class="left">
+        <a href="#" class="link back" style="margin-left: 10px; color: white">
+          <i class="fa fa-arrow-left"></i>          
+        </a>
+      </div>
+      <div class="center" style="font-weight: bold;font-family: Ubuntu;color: white">Alterar senha</div>
+    </div>
+</div>
+<div data-page="altsenha" class="page navbar-fixed" style="font-family: Ubuntu">
+  <div class="page-content">
+
+  <div class="list-block" style="margin:0 !important;">
+  <ul>
+
+  <li>
+      <div class="item-content">
+        <div class="item-media"><i class="fa fa-lock"></i></div>
+        <div class="item-inner">
+          <div class="item-input">
+            <input type="password" id="usuario_senha_antiga" placeholder=" Senha atual">
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li>
+      <div class="item-content">
+        <div class="item-media"><i class="fa fa-edit"></i></div>
+        <div class="item-inner">
+          <div class="item-input">
+            <input type="password" id="usuario_senha1" placeholder="Nova senha">
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li>
+      <div class="item-content">
+        <div class="item-media"><i class="fa fa-check"></i></div>
+        <div class="item-inner">
+          <div class="item-input">
+            <input type="password" id="usuario_senha2" placeholder="Repita a senha">
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+  <p class="buttons-row">
+    <div class="row" style="width:90%;margin-left:5%;">
+      <div class="col-50">
+        <a href="#" style="width:auto" class="button button-raised button-fill color-red back" id="altsenha_cancelar">Cancelar</a>
+      </div>
+      <div class="col-50">
+        <button style="width:100%" onclick="alterar_senha();" class="button button-raised button-fill color-green" id="altsenha_salvar">Salvar</button>
+      </div>
+    </div>
+  </p>
+
+  </div>
+</div>
+</div>

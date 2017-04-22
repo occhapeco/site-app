@@ -1,0 +1,141 @@
+<div class="navbar">
+    <div class="navbar-inner">
+      <div class="left">
+        <a href="#" class="link back">
+          &nbsp&nbsp&nbsp<i class="fa fa-arrow-left"></i>
+          
+        </a>
+      </div>
+      <div class="center">Perfil</div>
+      <div class="right">
+        <a onclick="myApp.alert('Aqui você pode editar suas informações, além de poder fazer logout e trocar sua cidade.');" class="link icon-only" id="refresh" style=" width:30px !important;">
+          <i class="fa fa-info"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+<div data-page="perfil" class="page">
+  <div class="page-content">
+      <div class="content-block-title">Minhas informações</div>
+        <div class="list-block">
+          <ul>
+            <li>
+              <div class="item-content">
+                <div class="item-media"><i class="fa fa-user"></i></div>
+                <div class="item-inner">
+                  <div class="item-input">
+                    <input type="text" placeholder="Seu nome" id="user_nome">
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="item-content">
+                <div class="item-media"><i class="fa fa-envelope"></i></div>
+                <div class="item-inner">
+                  <div class="item-input">
+                    <input type="email" placeholder="E-mail" readonly id="user_email">
+                  </div>
+                </div>
+              </div>
+            </li>
+
+             <li>
+              <div class="item-content">
+                <div class="item-media"><i class="fa fa-phone"></i></div>
+                <div class="item-inner">
+                  <div class="item-input">
+                    <input type="number" placeholder="Telefone" id="user_telefone">
+                  </div>
+                </div>
+              </div>
+            </li>
+
+              <li>
+                <div class="item-content">
+                  <div class="item-media"><i class="fa fa-mars-double"></i></div>
+                  <div class="item-inner">
+                    <div class="item-input">
+                      <select id="user_genero">
+                        <option value="0">Feminino</option>
+                        <option value="1">Masculino</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            <!-- Date -->
+            <li>
+              <div class="item-content">
+                <div class="item-media"><i class="fa fa-calendar"></i></div>
+                <div class="item-inner">
+                  <div class="item-input">
+                    <input type="date" name="data" placeholder="Data de nascimento" value="2014-04-30" id="user_nasc">
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <p><a href="#" class="button button-fill color-green" style="margin-left: 20px;margin-right: 20px;" onclick="alterar_perfil();">Salvar</a></p>
+        </div>
+
+        <div class="content-block-title">Redes sociais</div>
+        <div class="list-block">
+          <ul>
+            <li>
+              <a href="#" class="item-link item-content">
+                <div class="item-media"><i class="fa fa-google-plus"></i></div>
+                <div class="item-inner">
+                  <div class="item-title">Avalie nosso aplicativo</div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="content-block-title">Faça mais</div>
+        <div class="list-block">
+          <ul>
+            <li>
+              <a href="#" class="item-link item-content">
+                <div class="item-media"><i class="fa fa-thumbs-up"></i></div>
+                <div class="item-inner">
+                  <div class="item-title">Divulgue minha empresa</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="item-link item-content">
+                <div class="item-media"><i class="fa fa-info"></i></div>
+                <div class="item-inner">
+                  <div class="item-title">Sobre</div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="content-block-title">Segurança</div>
+        <div class="list-block">
+          <ul>
+            <li>
+              <a href="alterarsenha.html" class="item-link item-content">
+                <div class="item-media"><i class="fa fa-lock"></i></div>
+                <div class="item-inner">
+                  <div class="item-title">Alterar senha</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="item-link item-content" onclick="logout();">
+                <div class="item-media"><i class="fa fa-sign-out"></i></div>
+                <div class="item-inner">
+                  <div class="item-title">Logout</div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+  </div>
+</div>

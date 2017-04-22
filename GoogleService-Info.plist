@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>810246105636-7i2v9tv1bfj95qnf77r9u8otpg943v7n.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.810246105636-7i2v9tv1bfj95qnf77r9u8otpg943v7n</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA_luIgyh1q4uFe5DLVG4I3wmuTLMbeG4g</string>
+	<key>GCM_SENDER_ID</key>
+	<string>810246105636</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>br.com.clubedeofertas</string>
+	<key>PROJECT_ID</key>
+	<string>clube-br</string>
+	<key>STORAGE_BUCKET</key>
+	<string>clube-br.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:810246105636:ios:eba54226e4b60683</string>
+	<key>DATABASE_URL</key>
+	<string>https://clube-br.firebaseio.com</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Advertisement would like to create a calendar event.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Advertisement would like to store a photo.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Advertisement would like to use bluetooth.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Take and upload photos to Firebase Storage</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Used for Firebase Invites</string>
+</dict>
+</plist>

@@ -1,0 +1,79 @@
+<div class="navbar">
+    <div class="navbar-inner" style="background-color: rgb(245,147,0);">
+      <div class="left">
+        <a href="#" class="link back" style="margin-left: 10px;color: white">
+          <i class="fa fa-arrow-left"></i>
+          
+        </a>
+      </div>
+      <div class="center" id="empresa_oferta" style="font-family: Ubuntu;color: white;font-weight: bold"></div>
+      <div class="right">
+        <!--<a onclick="//window.plugins.socialsharing.share('Nome da oferta No NOME DO APP, baixe e economize!', null, null, 'http://www.google.com')" class="link icon-only" id="refresh" style=" width:30px !important;color: white">
+          <i class="fa fa-share"></i>
+        </a>-->
+      </div>
+    </div>
+  </div>
+<div data-page="oferta" class="page" style="font-family: Ubuntu">
+  <div class="page-content">
+
+      <img src="#" width="100%" id="img_oferta">
+
+      <div style="position:absolute; left: 75%; z-index: 999998;top: 44px;padding: 0px; border-radius: 5px; font-weight: bold; ">
+        <img src="img/triangulo.png" width="100%">                            
+      </div>
+      <div style="position:absolute; right: 0px; z-index: 999999;top: 46px;color: white; padding: 5px; border-radius: 5px; font-weight: bold; " id="desconto_cupom">
+        <diva style="font-size: 20px;"></diva><br>
+      </div>
+
+      <p class="buttons-row" style="margin-left: 20px;margin-right: 20px;-webkit-margin-before:-35px !important; top: 100px;margin-bottom: 0;margin-top: 0;"><a href="#" class="button" style="font-weight: bold;z-index: 99; padding-top: 12px;padding-bottom: 37px; font-size: 18px; color:white;border:0;font-style: italic;" id="botao_cupom"> <i class="fa fa-cart-arrow-down" style="font-size: 20px;"></i> &nbsp&nbspPegar cupom</a></p>
+
+      <div class="content-block" style="-webkit-margin-before:-20px !important; top: 100px">
+        <div class="content-block-inner">
+         <p style="font-size: 22px;font-family: Ubuntu;font-weight: bold;font-style: italic;margin-bottom:5px;" id="nome_cupom"></p>
+         <div style="font-size: 18px;color: red;" id="precos_cupom"><s style="color:gray"></s></div>
+         <hr>
+           <p style="color:black; margin:0" >
+              <diva id="info_cupom">
+              <i class="fa fa-ticket"></i> <br>
+              <i class="fa fa-calendar"></i>
+              </diva>
+              <hr>
+              <div id="desc_cupom"></div>
+              <hr>
+              <div id="regras_cupom"></div> 
+           </p>
+          
+        </div>
+      </div>
+
+        <div class="content-block-title">Origem do cupom</div>
+
+        <div class="list-block">
+          <ul>
+            <li class="item-content">
+              <div class="item-media"><i class="fa fa-university"></i></div>
+              <div class="item-inner">
+                <div class="item-title" id="empresa_cupom"></div>
+              </div>
+            </li>
+            <li>
+               <a href="#" onclick="window.open('tel:12345678', '_system');" class="item-link item-content" id="telefone_cupom">
+              <div class="item-media"><i class="fa fa-phone"></i></div>
+                <div class="item-inner">
+                  <div class="item-title" id="tel_oferta">Ligar para esta empresa</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#" onclick="window.open('http://maps.apple.com/?ll=51.84,-8.30', '_system');" class="item-link item-content" id="endereco_cupom">
+                <div class="item-media"><i class="fa fa-map"></i></div>
+                <div class="item-inner">
+                  <div class="item-title" id="end_mapa" style="white-space: inherit;">Ver no mapa</div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+  </div>
+</div>
